@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-COPY test.cc /test.cc
+COPY test.cc /
 
 RUN apt-get update -y
 RUN apt-get install -y g++
