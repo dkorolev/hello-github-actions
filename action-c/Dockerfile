@@ -1,0 +1,1 @@
+FROM dkorolevtesthellocpp/dkorolev_test_hello_cpp:latest

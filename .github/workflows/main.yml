@@ -16,3 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./action-b
+  three:
+    name: Three
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./action-c
