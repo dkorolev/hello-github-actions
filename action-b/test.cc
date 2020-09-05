@@ -1,5 +1,12 @@
 #include <iostream>
+#include <string>
+#include <map>
 
 int main() {
-  std::cout << "C++ success!" << std::endl;
+  std::map<std::string, int> m;
+  m["one"] = 1;
+  m["answer"] = 42;
+  for (auto const& [key, value] : m) {
+    std::cout << key << " : " << value << std::endl;
+  }
 }
