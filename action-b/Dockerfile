@@ -1,7 +1,9 @@
 FROM ubuntu:latest
 
+COPY test.cc /test.cc
+
 RUN apt-get update -y
-RUN apt-get install -y clang++
+RUN apt-get install -y g++
 
 ADD run.sh /run.sh
 
