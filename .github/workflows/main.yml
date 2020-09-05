@@ -12,7 +12,7 @@ jobs:
           MY_NAME: "Mona"
   cpp:
     name: C++ action
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: ./action-b
