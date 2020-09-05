@@ -1,6 +1,7 @@
-FROM debian:9.5-slim
+FROM ubuntu-18.04
 
-RUN apt install g++
+RUN apt-get update
+RUN apt-get install g++
 
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
