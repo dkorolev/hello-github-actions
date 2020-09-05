@@ -9,4 +9,5 @@ int main() {
   for (auto const& [key, value] : m) {
     std::cout << key << " : " << value << std::endl;
   }
+  std::cout << "Done!" << std::endl;
 }
