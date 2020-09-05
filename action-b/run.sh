@@ -2,5 +2,13 @@
 
 cd action-b
 
+which g++
+which clang
+which clang++
+
+g++ --version
+clang --version
+clang++ --version
+
 mkdir -p bin
-g++ -std=c++17 test.cc -o bin/test && bin/test
+clang++ -std=c++17 test.cc -o bin/test && bin/test
