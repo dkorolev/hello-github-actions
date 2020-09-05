@@ -1,7 +1,4 @@
-FROM ubuntu:latest
-
-RUN apt-get update -y
-RUN apt-get install -y g++
+FROM dkorolevtesthellocpp/ubuntu_with_gcc
 
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
