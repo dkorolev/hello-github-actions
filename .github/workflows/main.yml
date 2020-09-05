@@ -2,28 +2,28 @@ name: A workflow for my Hello World file
 on: push
 
 jobs:
-  build:
-    name: Hello world action
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-a
-        with:
-          MY_NAME: "Mona"
+#  build:
+#    name: Hello world action
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v1
+#      - uses: ./action-a
+#        with:
+#          MY_NAME: "Mona"
   cpp:
     name: C++ action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ./action-b
-  three:
-    name: Three
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: ./action-c
-  four:
-    name: Four
-    runs-on: dkorolevtesthellocpp/dkorolev_test_hello_cpp:latest
-    steps:
-      - uses: actions/checkout@v2
+#  three:
+#    name: Three
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: ./action-c
+#  four:
+#    name: Four
+#    runs-on: dkorolevtesthellocpp/dkorolev_test_hello_cpp:latest
+#    steps:
+#      - uses: actions/checkout@v2
