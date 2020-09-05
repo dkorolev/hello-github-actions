@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo "Not yet C++."
-ls
-ls -R
+mkdir -p bin
+g++ -std=c++17 test.cc -o bin/test && bin/test
