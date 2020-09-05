@@ -22,3 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./action-c
+  four:
+    name: Four
+    runs-on: dkorolevtesthellocpp/dkorolev_test_hello_cpp:latest
