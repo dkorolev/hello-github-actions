@@ -25,3 +25,4 @@ jobs:
   four:
     name: Four
     runs-on: dkorolevtesthellocpp/dkorolev_test_hello_cpp:latest
+      - uses: actions/checkout@v2
