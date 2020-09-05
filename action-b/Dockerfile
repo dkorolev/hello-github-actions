@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+FROM clangbuiltlinux/debian
+# FROM ubuntu:latest
 
 RUN apt-get update -y
 RUN apt-get install -y g++
