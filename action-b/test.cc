@@ -9,5 +9,6 @@ int main() {
   for (auto const& [key, value] : m) {
     std::cout << key << " : " << value << std::endl;
   }
-  std::cout << "Done!" << std::endl;
+  std::cout << "Done II (the previous one was 18s in this step)!" << std::endl;
+  std::cout << "Previous: https://github.com/dkorolev/hello-github-actions/runs/1075795678" << std::endl;
 }
